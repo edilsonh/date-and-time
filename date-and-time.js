@@ -6,14 +6,14 @@ let days = moment().format("DDDo");
 let seconds = moment().seconds() + (moment().minute() * 60) + (moment().hours() * 60 * 60);
 let dst = moment().isDST();
 let daylight = "is not";
-if (dst) {
-  daylight = "is";
-}
+  if (dst) {
+    daylight = "is";
+  }
 let leapYear = moment().isLeapYear();
 let year = "is not";
-if (leapYear) {
-  year = "is";
-}
+  if (leapYear) {
+    year = "is";
+  }
 
 console.log(`It is ${chalk.blue(fullTime)}.`);
 console.log(`It is ${chalk.magenta(days)} day of the year.`);
