@@ -1,0 +1,19 @@
+{
+  "name": "date-facts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "date-and-time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edilsonh/date-and-time.git"
+  },
+  "author": "ed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edilsonh/date-and-time/issues"
+  },
+  "homepage": "https://github.com/edilsonh/date-and-time#readme"
+}
